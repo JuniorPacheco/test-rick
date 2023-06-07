@@ -1,0 +1,21 @@
+.layout {
+
+    min-height: 125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: //linear-gradient(0deg, transparent 0%, #000 77%, rgb(0 0 0 / 0) 100%), 
+                url(/assets/img/backgrounds/bg-top.jpg) top left, 
+                //linear-gradient(180deg, #000 77%, rgb(0 0 0 / 0) 100%),
+                url(/assets/img/backgrounds/bg-bottom.jpg) bottom left;
+
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+
+    &__container {
+
+        margin: 0 1rem;
+
+    }
+
+}
